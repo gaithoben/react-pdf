@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@react-pdf/root",
+  "name": "@cloudhubreact-pdf/root",
   "version": "2.0.0",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -19,7 +19,7 @@
     "prepublish": "lerna run build",
     "lint": "eslint packages",
     "test": "vitest",
-    "dev": "lerna run dev --scope @react-pdf/examples --",
+    "dev": "lerna run dev --scope @cloudhubreact-pdf/examples --",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"
